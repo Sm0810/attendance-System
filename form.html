@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Attendance</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        /*tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }*/
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 6px;
+            box-sizing: border-box;
+        }
+
+    .container{
+   
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 70px;
+      font-family: Arial, sans-serif;
+      margin: 500px 450px;
+      margin-top: 50px;
+      font-size: 20px;
+      background-color: #c5a6e0;
+      width: 500px;
+      height: 350px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+        }
+
+    .btn{
+
+            font-size:20px;
+            border-radius:10px;
+            padding: 3px;
+
+        }
+        .btn:hover{
+            background-color: #dcdcdc;
+        }
+
+        header {
+            background-color: #261d83;
+            color: #f1eaea;
+            padding: 20px;
+            text-align: center;
+        }
+        img {
+  width: 65px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+        
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .H1{
+            text-align: center;
+            background-color: #c5a6e0;
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="./logo.jpg" alt="KBTCOE" style="display;">
+
+        <h1><h1>KBTCOE ERP ATTENDANCE SYSTEM</h1></h1>
+    </header>
+      
+
+       <h1  class="H1">Teaching Plan</h1>
+
+    <div class="container">
+        <form method="POST" action="home.html">
+    <table>
+        <!-- <tr>
+            <th>Field</th>
+            <th>Value</th>
+        </tr> -->
+        <tr>
+            <td>Subject:</td>
+            <td><input type="text" class="form-input" name="subject"></td>
+        </tr>
+        <tr>
+            <td>Subject Code:</td>
+            <td><input type="text" class="form-input" name="subject_code"></td>
+        </tr>
+        <tr>
+            <td>Unit:</td>
+            <td><input type="text" class="form-input" name="unit"></td>
+        </tr>
+        <tr>
+            <td>Topic:</td>
+            <td><input type="text" class="form-input" name="topic"></td>
+        </tr>
+        <tr>
+            <td>Topic Number:</td>
+            <td><input type="text" class="form-input" name="topic_number"></td>
+        </tr>
+        <tr>
+            <td>Lecture Number:</td>
+            <td><input type="text" class="form-input" name="lecture_number"></td>
+        </tr>
+
+        
+    </table>
+    <br><br>
+    <input class= "btn" type="submit" value="submit">
+    </form>
+</div>
+</body>
+</html>
